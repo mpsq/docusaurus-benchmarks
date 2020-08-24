@@ -12,7 +12,7 @@ const URLs = [
     url: "https://5f2d193a5609540008fb969c--docusaurus-2.netlify.app/build/",
   },
 ]
-const COUNT = 50
+const COUNT = 100
 
 const runBench = async (url) => {
   const lighthouse = require("lighthouse")
