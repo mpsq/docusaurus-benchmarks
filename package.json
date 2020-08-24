@@ -1,0 +1,23 @@
+{
+  "name": "docusaurus-benchmarks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpsq/docusaurus-benchmarks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mpsq/docusaurus-benchmarks/issues"
+  },
+  "homepage": "https://github.com/mpsq/docusaurus-benchmarks#readme",
+  "dependencies": {
+    "chrome-launcher": "^0.13.4",
+    "lighthouse": "^6.2.0"
+  }
+}
