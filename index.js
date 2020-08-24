@@ -36,18 +36,18 @@ const start = async () => {
   for (const { name, url } of URLs) {
     let results = []
 
-    console.log(`Start benchmark for "${name}"`)
+    console.log(`Start benchmarking "${name}"...`)
 
     for (let i = 0; i < COUNT; i++) {
       const res = await runBench(url)
-      console.log(res)
+      console.log(`Result #${i}: ${res}`)
       results.push(res)
     }
 
     results = results.filter(Boolean)
 
     console.log(
-      `${name} result:`,
+      `${name}:`,
       results.reduce((acc, upt) => acc + upt, 0) / results.length,
     )
   }
